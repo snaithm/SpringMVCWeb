@@ -26,9 +26,15 @@
 
         <div class="jumbotron">
             <div class="container">
-                <h2>Registeration Result</h2>
-                <p>${name}</p>
-                <p>${message}</p>
+                <h1>Registration Result</h1>
+                <div class="well">
+                    <p>
+                        <strong>Name</strong>: ${user.name}
+                    </p>
+                    <p>
+                        <strong>Message</strong>: ${user.message}
+                    </p>
+                </div>
             </div>
         </div>
     </body>

@@ -21,7 +21,6 @@ public class RegisterController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public ModelAndView greeting(@ModelAttribute User user) {
 
-        user.setName(user.getName() + " is now a  registered user");
         return new ModelAndView("register-result", "m", user);
     }
 }
