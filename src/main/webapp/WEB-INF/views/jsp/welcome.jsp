@@ -16,30 +16,27 @@
 	</head>
 
 	<body>
-	<nav class="navbar navbar-inverse navbar-fixed-top">
-	  <div class="container">
-		<div class="navbar-header">
-			<a class="navbar-brand" href="#">Spring 3 MVC Project</a>
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+		  <div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="/">Home</a>
+			</div>
+		  </div>
+		</nav>
+
+		<div class="jumbotron">
+		  <div class="container">
+			<h1>Home</h1>
+			<p>
+				Welcome user!
+			</p>
+			<p>
+				Please register to continue
+			</p>
+			<p>
+				<a class="btn btn-primary btn-lg" href="/register/" role="button">Register</a>
+			</p>
+		  </div>
 		</div>
-	  </div>
-	</nav>
-
-	<div class="jumbotron">
-	  <div class="container">
-		<h1>${title}</h1>
-		<p>
-			<c:if test="${not empty name}">
-				Hello ${name}
-			</c:if>
-
-			<c:if test="${empty name}">
-				Welcome User!
-			</c:if>
-		</p>
-		<p>
-			<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-		</p>
-	  </div>
-	</div>
 	</body>
 </html>
