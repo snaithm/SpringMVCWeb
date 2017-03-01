@@ -33,7 +33,7 @@
 			</c:if>
 
 			<c:if test="${empty name}">
-				Welcome Welcome!
+				Welcome User!
 			</c:if>
 		</p>
 		<p>
