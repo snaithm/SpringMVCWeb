@@ -42,10 +42,15 @@
             </p>
         </div>
             <p>
-                <input type="submit" value="Submit"/>
+                <input type="submit" class="btn btn-primary btn-lg" value="Submit"/>
             </p>
         </form:form>
     </div>
 </div>
 </body>
+<script>
+    $(document).ready(function() {
+        document.getElementById("name").focus();
+    });
+</script>
 </html>
