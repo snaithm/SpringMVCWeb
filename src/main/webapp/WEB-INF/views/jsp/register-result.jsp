@@ -34,6 +34,9 @@
                     <p>
                         <strong>Message</strong>: ${user.message}
                     </p>
+                    <p>
+                        <strong>Registered At</strong>: ${user.date}
+                    </p>
                 </div>
             </div>
         </div>

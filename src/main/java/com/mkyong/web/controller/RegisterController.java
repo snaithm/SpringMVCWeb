@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
+import org.joda.time.DateTime;
 
 @Controller
 public class RegisterController {
@@ -21,6 +22,8 @@ public class RegisterController {
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public ModelAndView greeting(@ModelAttribute User user) {
 
+        DateTime date = new DateTime();
+        user.setDate(date);
         return new ModelAndView("register-result", "m", user);
     }
 }

@@ -27,6 +27,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/libs/joda-time-2.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: org.springframework:spring-webmvc:3.2.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:3.2.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:3.2.13.RELEASE" level="project" />
@@ -37,5 +46,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-expression:3.2.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-web:3.2.13.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.9.4" level="project" />
   </component>
 </module>
