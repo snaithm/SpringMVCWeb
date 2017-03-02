@@ -1,6 +1,6 @@
-package com.mkyong.web.controller;
+package com.web.controller;
 
-import com.mkyong.web.model.User;
+import com.web.model.User;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;

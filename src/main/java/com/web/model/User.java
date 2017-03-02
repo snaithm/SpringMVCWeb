@@ -1,4 +1,4 @@
-package com.mkyong.web.model;
+package com.web.model;
 
 import org.joda.time.DateTime;
 
