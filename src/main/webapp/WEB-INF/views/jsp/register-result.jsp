@@ -33,7 +33,7 @@
                         <strong>Message</strong>: ${user.message}
                     </p>
                     <p>
-                        <strong>Registered At</strong>: ${user.date}
+                        <strong>Registered At</strong>: ${user.registeredDate}
                     </p>
                 </div>
             </div>

@@ -23,7 +23,7 @@ public class RegisterController {
     public ModelAndView greeting(@ModelAttribute User user) {
 
         DateTime date = new DateTime();
-        user.setDate(date);
+        user.setRegisteredDate(date);
         return new ModelAndView("register-result", "m", user);
     }
 }

@@ -12,7 +12,7 @@ public class User {
 
     private String message;
 
-    private DateTime date;
+    private DateTime registeredDate;
 
     public void setName(String name) {
         this.name = name;
@@ -30,11 +30,11 @@ public class User {
         return this.message;
     }
 
-    public void setDate(DateTime date) {
-        this.date = date;
+    public void setRegisteredDate(DateTime registeredDate) {
+        this.registeredDate = registeredDate;
     }
 
-    public DateTime getDate(){
-        return this.date;
+    public DateTime getRegisteredDate(){
+        return this.registeredDate;
     }
 }
